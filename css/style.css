@@ -1,0 +1,104 @@
+body{
+    margin : 0;
+    padding: 0;
+    background-color: #eeeff1;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    width: 60%;
+    background-color: rgb(254, 254, 128);
+    border-radius: 50px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+    gap: 1.5rem;
+}
+
+.title-container{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.title-container h1{
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1.5 rem;
+    font-style: bold;
+}
+
+.title-container img{
+   width: 26px;
+   height: 26px; 
+}
+
+.task-input-container input{
+    flex: 1;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: medium;
+    font-family: "Overpass", sans-serif;
+}
+
+.add-btn{
+    color: white;
+    background-color: rgba(57, 211, 33, 0.479);
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    flex-direction: row;
+}
+
+.add-btn:hover{
+    background-color: rgba(3, 132, 59, 0.911) ;
+}
+
+.add-btn:active{
+    transform: scale(0.95);
+}
+
+
+#taskList h3{
+    font-family: "Overpass", sans-serif;
+}
+
+
+/*js elements*/
+#taskList li span {
+  cursor: pointer;
+  font-family: "Overpass", sans-serif;
+  color: #1c1e21;
+  flex: 1; 
+  padding-right: 25px;
+}
+
+#taskList li{
+    list-style-type: square;
+}
+
+#taskList li span.completed {
+  text-decoration: line-through;
+  color: #a0aec0;
+}
+
+.delete-btn {
+  background: rgb(229, 228, 228);
+  border: none;
+  color: #e53e3e;
+  font-size: 0.7rem;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 4px 7px;
+  border-radius: 8px;
+  transition: background-color 0.2s;
+}
+
