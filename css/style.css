@@ -1,0 +1,83 @@
+body{
+    margin : 0;
+    padding: 0;
+    background-color: #eeeff1;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    width: 60%;
+    background-color: beige;
+    border-radius: 50px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.06);
+    gap: 1.5rem;
+}
+
+.title-container{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.title-container h1{
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 1.5 rem;
+    font-style: bold;
+}
+
+.title-container img{
+   width: 26px;
+   height: 26px; 
+}
+
+.task-input-container input{
+    flex: 1;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: medium;
+    font-family: "Overpass", sans-serif;
+}
+
+.add-btn{
+    color: white;
+    background-color: rgba(57, 211, 33, 0.479);
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    flex-direction: row;
+}
+
+.add-btn:hover{
+    background-color: rgba(3, 132, 59, 0.911) ;
+}
+
+.add-btn:active{
+    transform: scale(0.95);
+}
+
+#task-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+#task-list li{
+    background-color: black;
+    padding: 12px 16px;
+    border: 1 px solid;
+    border-radius: 12px 16px;
+}
+
+
