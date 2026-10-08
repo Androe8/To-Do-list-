@@ -23,6 +23,10 @@ Because this app relies solely on vanilla web technologies, no installation or p
 Open the app:
 Double-click index.html to open it directly in any browser (or use the VS Code Live Server extension)
 
+This is how it looks.
+![alt text](image.png)
+
+
 **Clone the repository:**
 
 git clone [https://github.com/Androe8/To-Do-list-.git]
